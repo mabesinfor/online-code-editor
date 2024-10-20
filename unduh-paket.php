@@ -174,15 +174,15 @@ switch ($paket) {
 		break;
 	case "karakter":
 		copy("./images/shift_d/dwarf.jpg", $fulldir . "dwarf.jpg");
-		copy("./images/shift_d/profile.png", $fulldir . "profile.png");
 		copy("./images/shift_d/elf.png", $fulldir . "elf.png");
-		copy("./images/shift_d/human.png", $fulldir . "human.png");
 		copy("./images/shift_d/orc.png", $fulldir . "orc.png");
+		copy("./images/shift_d/human.png", $fulldir . "human.png");
+		copy("./images/shift_d/profile.png", $fulldir . "profile.png");
 		$filename = "RESPONSI 1_PAKET KARAKTER.pdf";
 		$filepath .= $filename;
 		break;
 	case "inventory":
-		copy("./images/hero.jpg", $fulldir . "hero.jpg");
+		copy("./images/shift_d/hero.jpg", $fulldir . "hero.jpg");
 		$filename = "RESPONSI 1_PAKET INVENTORY.pdf";
 		$filepath .= $filename;
 		break;

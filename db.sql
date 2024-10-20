@@ -776,9 +776,10 @@ INSERT INTO akun VALUES (
 );
 INSERT INTO akun VALUES (
     "H1D023107",
-    "$2y$10$ikWpZgTGW3tz26sLsnF.FePbM2n/d.lPiuMzjxnqjs4lFrGGTJ9i.",
+    "$2y$10$uHDyAirqcX0paUwv6wxOOOpzcKVy9vpYs08jPXIKssT8Qbb3osVJC",
     "inventory"
 );
+
 INSERT INTO akun VALUES (
     "H1D023076",
     "$2y$10$m9aOwAuXCTL.CQkThFnjBukKM5QaL.1VC9I8AI0Nyj.RSSIjsKQka",
@@ -851,7 +852,7 @@ INSERT INTO akun VALUES (
 );
 INSERT INTO akun VALUES (
     "H1D023094",
-    "$2y$10$f892STG1b6f5e2BDVNAa1.AW1X47WOQjWwKbzWcR.zIk.4PuVB9x.",
+    "$2y$10$gIOG99hYOuvdCA0gKwEJuu81BmRt7mvPLV/eZxqndI7XuTqaKhSka",
     "inventory"
 );
 INSERT INTO akun VALUES (
@@ -863,4 +864,14 @@ INSERT INTO akun VALUES (
     "H1D023112",
     "$2y$10$GWaB3A6BV36r9pT/nmH7AuepoP/UWI66PjIQXdw6.WFVeZf8n13wq",
     "karakter"
+);
+INSERT INTO akun VALUES (
+    "coba1",
+    "$2y$10$syMoH2ZaeJjqm7QyTtvr.uK0K4vLXl6nKtnB/WCzbuWMnlZqHPmmu",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "coba2",
+    "$2y$10$v7rBUf3aGv7UK5IkC9dYLeALRp5F19shxjCHcSrdIPc6EDXvqxj5a",
+    "inventory"
 );

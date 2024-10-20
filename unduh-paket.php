@@ -1,6 +1,7 @@
 <?php
 
-if (!isset($_COOKIE["nim"])) header("Location: login.php");
+if (!isset($_COOKIE["nim"]))
+	header("Location: login.php");
 require "connection.php";
 
 // Dapatkan data akun
@@ -8,12 +9,13 @@ $nim = $_COOKIE["nim"];
 $sql = "SELECT * FROM akun WHERE nim='$nim';";
 $query = mysqli_query($conn, $sql);
 
-if (mysqli_num_rows($query) == 0) die("Data akun tidak ditemukan");
+if (mysqli_num_rows($query) == 0)
+	die("Data akun tidak ditemukan");
 
 $row = mysqli_fetch_assoc($query);
 $paket = $row["paket"];
-$dir = str_replace("/","",$row["password"]);
-$fulldir = "./Jawaban/" . $paket . "/" . $nim . $dir .  "/";
+$dir = str_replace("/", "", $row["password"]);
+$fulldir = "./Jawaban/" . $paket . "/" . $nim . $dir . "/";
 
 // Dapatkan file soal sesuai paket
 $filename = "";
@@ -170,6 +172,20 @@ switch ($paket) {
 		$filename = "RESPONSI 1_PAKET RAFI.pdf";
 		$filepath .= $filename;
 		break;
+	case "karakter":
+		copy("./images/shift_d/dwarf.jpg", $fulldir . "dwarf.jpg");
+		copy("./images/shift_d/profile.png", $fulldir . "profile.png");
+		copy("./images/shift_d/elf.png", $fulldir . "elf.png");
+		copy("./images/shift_d/human.png", $fulldir . "human.png");
+		copy("./images/shift_d/orc.png", $fulldir . "orc.png");
+		$filename = "RESPONSI 1_PAKET KARAKTER.pdf";
+		$filepath .= $filename;
+		break;
+	case "inventory":
+		copy("./images/hero.jpg", $fulldir . "hero.jpg");
+		$filename = "RESPONSI 1_PAKET INVENTORY.pdf";
+		$filepath .= $filename;
+		break;
 	default:
 		die("Paket tidak ditemukan");
 }
@@ -180,12 +196,15 @@ readfile($filepath);
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 </head>
+
 <body>
-	
+
 </body>
+
 </html>

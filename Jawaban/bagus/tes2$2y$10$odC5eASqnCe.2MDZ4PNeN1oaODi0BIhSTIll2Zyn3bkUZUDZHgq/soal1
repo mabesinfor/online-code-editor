@@ -1,0 +1,60 @@
+<html>
+	<head>
+	<title>tes</title>
+	<style>
+	p1{
+	background-color: red;
+	}
+	p2{
+	background-color: blue;
+	}
+	p3{
+	background-color: green;
+	}
+	p4{
+	background-color: yellow;
+	}
+	p5{
+	background-color: orange
+	}
+	nama{
+	font-weight:bold ;
+	text-align: center;
+	}
+	
+	nim{
+	font-style: italic;
+	}
+	rank{
+	text-decoration: ;
+	}
+	.atas{
+	width: auto;
+	height:100px;
+	background-color: red;
+	}
+	.tengah{
+	width: auto;
+	height: 100px;
+	background-color: orange;
+	}
+	.bawah{
+	width: auto;
+	height: 100px;
+	background-color: yellow;
+	}
+	</style>
+	</head>
+	<body>
+		<h1><p1>B <p2>A <p3>G <p4>U <p5>S</h1>
+		<a><p1>beranda</a>
+		<a href="statistik"><p2>statistik</a>
+		<a><p3>tentang saya</a>
+		<a><p4>kontak</a>
+		<div class="atas"><nama>YOSAFAT BAGUS BIRAWA</nama></div>
+		<div class="tengah"><nim>H1D023109</nim></div>
+		<div class="bawah">BRONZE</div>
+		saya mengerjakan responsi ini dengan sejujur-jujurnya dan tanpa kecurangan apapun
+		
+	</body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Soal 1 - Paket Bagus</title>
+</head>
+
+<body>
+<style>
+	#kotak {
+	background-color: black;
+	height: 300px;
+	}
+	#kotak1 {
+	background-color: red;
+	height: 100px;
+	}
+	#kotak2{
+	background-color: blue;
+	height: 100px;
+	}
+	#kotak3{
+	background-color: green;
+	height:100px;
+	}
+	#nama {text-align: center; text-justify: center;}
+	#beranda{background-color: yellow;}
+	#statistik {background-color: green; color: white}
+	#about{background-color: blue; color: white;}
+	#kontak{background-color: aqua;}
+	
+</style>
+
+	<div style="background-color: brown; width: 112px">
+		<div style="background-color: green; width: 92px;">
+			<div style="background-color: pink; width: 69px">
+				<div style="width: 44px;">
+					<div style="background-color: blue; width: 44p;">
+						<div style="background-color: red; width: 22px;" ">
+							<h1>BAGUS</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<span id=beranda>Beranda</span> &nbsp;
+	<span id=statistik>Statistik</span> &nbsp;
+	<span id=about>Tentang Saya</span> &nbsp;
+	<span id=kontak>Kontak</span>
+	
+	<div id=kotak>
+		<div id=kotak1>
+			<b id=nama>Adeyunita Rachmadhani</b>
+		</div>
+		<div id=kotak2>
+		<i id=nim>H1D023057</i>
+		</div>
+		<div id=kotak3>
+		<u >Bronze</u></div>
+	</div>
+	
+	
+	<p>Saya mengerjakan responsi ini dengan sejujur-jujurnya dan tanpa melakukan kecurangan dalam bentuk apapun</p>
+	
+</html>

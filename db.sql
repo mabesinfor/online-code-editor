@@ -759,3 +759,108 @@ INSERT INTO akun VALUES (
     "$2y$10$jkzwEXy.bIU3ZeXDKqSfwuSrb94ZGfXALZRC3nlhBApAg24rqj7tO",
     "Toko Buah"
 );
+INSERT INTO akun VALUES (
+    "H1D023055",
+    "$2y$10$oNkNNOIbC8..u0P8y/WQGOLHhRLOVdLsPCiluRcpiJ9G9gUWyiY0G",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023024",
+    "$2y$10$eNQGQjXDZZKiH4z1wPaD0ufRAPp6W1eayBTMoTteKMpRTD/E5oYBe",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023104",
+    "$2y$10$QSWqAjCRgc4zRbmE1OEUWe5lbAXlfQIZd115UPJqXmPmyfy/50KxW",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023107",
+    "$2y$10$ikWpZgTGW3tz26sLsnF.FePbM2n/d.lPiuMzjxnqjs4lFrGGTJ9i.",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023076",
+    "$2y$10$m9aOwAuXCTL.CQkThFnjBukKM5QaL.1VC9I8AI0Nyj.RSSIjsKQka",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023012",
+    "$2y$10$VE5/Ee/4iyZuwlLvCojhIeA0tgGXA3Lx7SwXTc3Pb8NJdcZb5FTam",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023022",
+    "$2y$10$XkP.AHV9fnrue6ht2qxA5e38MVShQdAXtc.tuAf4064M19WpYyhFq",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023038",
+    "$2y$10$0RDqTcV0wiai9QYLU6HGJetvX0dQTgvZvEj/t8Gk9uTaXd8Fec6nG",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023018",
+    "$2y$10$dKDjA55GVylkAsbGM1MgWunnwO3fTfIo0RPRGgT7qFvnduCkimVqy",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023106",
+    "$2y$10$mLj0ND5IDrN3vqGZuVY3rOmJOes9GrDM2AAeHp0gqFKaYg.2CEmsy",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023074",
+    "$2y$10$pid1cHCIt/rXKjm6bQxveen7BU0uj7jbDoUxGpMKmnb7dI.tDRdoC",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023098",
+    "$2y$10$R3zq8KTcM8cpcy5E.zwA0u6zv2AzdsZzKwvsIEpJ5ZyiJc88VLkk2",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023060",
+    "$2y$10$/Je9roOd2BVIiYXs3eLxLuTZWLtBqxpFX1bct1rM1tbJyTNVy9tV6",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023065",
+    "$2y$10$k4ZnTPVroYb4zzjd7ytXg.YaSh76eDdIbyrNuolsTqR1SXriXEs2q",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023026",
+    "$2y$10$c7PSnCp45ajzFTdzBInf/.QJlOFkIMRZm1DKoPmo5/HNHZQwD6NP6",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023082",
+    "$2y$10$HMtsFmIqdEsJaGaduLx.JOpEhC/v94205sVaYBvCmyrB1Kf0.qCN6",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023088",
+    "$2y$10$2g7hOSF5YS9CSMIe3ok0N.3NWNNjL73WEvtsLEMk3BKl73Aoyl.sO",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023086",
+    "$2y$10$z0RzOq5DX1KxO72joTjJs.vkJy1kgv0Mzu9zm9Pz.ZYIY7xuANGxW",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023094",
+    "$2y$10$f892STG1b6f5e2BDVNAa1.AW1X47WOQjWwKbzWcR.zIk.4PuVB9x.",
+    "inventory"
+);
+INSERT INTO akun VALUES (
+    "H1D023092",
+    "$2y$10$L0O/CagrUdh.nWYBXo0Ohe/fvTxrr.BO7Clc4VJzoXAAn1g2sKr..",
+    "karakter"
+);
+INSERT INTO akun VALUES (
+    "H1D023112",
+    "$2y$10$GWaB3A6BV36r9pT/nmH7AuepoP/UWI66PjIQXdw6.WFVeZf8n13wq",
+    "karakter"
+);

@@ -1,8 +1,8 @@
 <?php
 
 $server = "localhost";
-$username = "praktikan";
-$password = "praktikan123";
+$username = "root";
+$password = "";
 $db = "responsi1_pemweb";
 
 $conn = new mysqli($server, $username, $password, $db);

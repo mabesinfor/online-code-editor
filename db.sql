@@ -1004,3 +1004,108 @@ INSERT INTO akun VALUES (
     "$2y$10$lryx1C0DWmrZgX1WZlU.Ou3M3K0qt2XZM0qowm5UHq/fxm8lhazN.",
     "kominfo"
 );
+INSERT INTO akun VALUES (
+    "H1D023025",
+    "$2y$10$oN9kFyL5Id.aLF4iExQwTu1uExMrFQsesqMDpFY7qEdM70TJhfmki",
+    "Wisata"
+);
+INSERT INTO akun VALUES (
+    "H1D023100",
+    "$2y$10$iDhFO0Y73jyOrTf3m/7K6e.9UZkQJFBQ/Q11b5cREb7HpkFjhRCxG",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "H1D023053",
+    "$2y$10$S4fPeSidCDTJy.zeZYHqpOJ5ydkfkjG6wbCj4Ty9SF.2Yvvj9kM06",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "H1D023050",
+    "$2y$10$qrhAHPDUETf6EOjuJYZI1ONDBoeZ1sh5bQv02CfpigQFo5hZZfGOG",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "H1D023033",
+    "$2y$10$DsPH0RoddfPlTYZ.gnOWfu1XxBawluD9MqjbaFuwuZskdFYLBlOlW",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "H1D023009",
+    "$2y$10$kDI9ctAQes7CkPNw6aAD6u4KJVq2ycEfCWpkMZJoFClcy1OClI4YK",
+    "Wisata"
+);
+INSERT INTO akun VALUES (
+    "H1D023031",
+    "$2y$10$mQ1dTVAAlz2TEcuEyFt0aupHv2EsBvKzQ.KhCI6k0Hv77Iighl3vu",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "H1D023069",
+    "$2y$10$vwrRZt/maeoVFUMJef0ISu7RMIF03uc2.t1Xe6hvMtkByC5oqbfTq",
+    "Wisata"
+);
+INSERT INTO akun VALUES (
+    "H1D023099",
+    "$2y$10$LFex/ZUD4diSbmRpyeEOeO8mtl3nfKZSL/n2ejDUOcUIQTKiI0AgS",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "H1D023057",
+    "$2y$10$Dndnb2dtpPmoFs2mqPt3N.OJyiPdC3ouj8.WfV67BBvIystseXEsS",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "H1D023109",
+    "$2y$10$aLjaYhSZ0xbcGLYqzw70fumcOdLKUVrW5VyTjGT.HbSuXTtwYdVs2",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "H1D023119",
+    "$2y$10$9rsRaIkM/2enkOP.hhlR6OFfsnC3L5dtH/1kwudVkUYNww8yZMSZK",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "H1D023046",
+    "$2y$10$mKZG8sYJWJlkkfCI05pddODnJb2KY6VXfHAfKp8aN3YNnuwAhzbrW",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "H1D023052",
+    "$2y$10$pD.t9U5gITpHYt1yEALK0umXOC5m4OKcFCKQJX9aRYzEWXEeEySqi",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "H1D023073",
+    "$2y$10$uNY7ooZmx0ye8CfIMey2QujhYRcM02zYRRsoieOX818arWHBOCjg6",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "penulis",
+    "$2y$10$ADOmU5B3XHo.eddFIYZSA.qIVspcOknuovW84GiXPpbR8ksZ.5.SG",
+    "Penulis"
+);
+INSERT INTO akun VALUES (
+    "warung1",
+    "$2y$10$3zmVfY1eaqQg5KkeXvUdI.osb8/RLmFp8lRllWFMULKjkow9DR3zy",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "warung2",
+    "$2y$10$Q5hFWem..9NC6HAkAOXO6e4l74sE36eAY3dwgdck/.7WXNlgPUPyG",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "warung3",
+    "$2y$10$UsJzewmhqb.7IVQLzs7TLuXrlSQyE3Pk4oaRoEvWLMfDzom7PNPnS",
+    "Warung"
+);
+INSERT INTO akun VALUES (
+    "wisata1",
+    "$2y$10$5fcfQuqDM56TqRm/bVSLHur4/4FCOZPWZILRjc8XgrYOQ658Psziy",
+    "Wisata"
+);
+INSERT INTO akun VALUES (
+    "wisata2",
+    "$2y$10$udxtlOavFDL9/bn3ZSIq9uAezogTiG3N1GbK7bYnzIcP38VlCP5ni",
+    "Wisata"
+);

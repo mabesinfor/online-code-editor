@@ -196,6 +196,26 @@ switch ($paket) {
 		$filename = "RESPONSI 1_PAKET KOMINFO.pdf";
 		$filepath .= $filename;
 		break;
+	case "Penulis":
+		copy("./images/penulis/myPicture.png", $fulldir . "myPicture.png");
+		$filename = "RESPONSI 1_PAKET PENULIS.pdf";
+		$filepath .= $filename;
+		break;
+	case "Warung":
+		copy("./images/warung/ayam_bakar.jpg", $fulldir . "ayam_bakar.jpg");
+		copy("./images/warung/es_teh.jpg", $fulldir . "es_teh.jpg");
+		copy("./images/warung/kopi.jpg", $fulldir . "kopi.jpg");
+		copy("./images/warung/nasi_goreng.jpg", $fulldir . "nasi_goreng.jpg");
+		copy("./images/warung/ttd.jpg", $fulldir . "ttd.jpg");
+		copy("./images/warung/unsoed.png", $fulldir . "unsoed.png");
+		$filename = "RESPONSI 1_PAKET WARUNG.pdf";
+		$filepath .= $filename;
+		break;
+	case "Wisata":
+		copy("./images/wisata/ntt.jpg", $fulldir . "ntt.jpg");
+		$filename = "RESPONSI 1_PAKET WISATA.pdf";
+		$filepath .= $filename;
+		break;
 	default:
 		die("Paket tidak ditemukan");
 }

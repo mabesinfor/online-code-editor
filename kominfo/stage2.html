@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🔒 Bikin Password</title>
+    <style>
+      * { box-sizing: border-box }
+      .valid { text-decoration: line-through; color: green; }
+      #password {
+        width: 100%;
+        padding: 10px 30px 10px 10px;
+        border: 2px solid #2c3e50;
+        border-radius: 4px;
+      }
+      #password:focus { outline: none; border: 2px solid #3498db; }
+      .tampil {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🔒 Bikin Password</h1>
+    <div class="kriteria">Jumlah 8-20 karakter</div>
+    <div class="kriteria">Ada huruf kecil</div>
+    <div class="kriteria">Ada huruf besar</div>
+    <div class="kriteria">Minimal 2 angka</div>
+    <div class="kriteria">Ada simbol (!@#$%^&*)</div>
+    <div class="kriteria">Tidak boleh ada spasi</div>
+    <div style="position: relative">
+      <input type="password" id="password" placeholder="Masukkan password" oninput="cekPassword()" />
+      <button class="tampil" onclick="tampilPassword()">🫣</button>
+    </div>
+    <script>
+      var password = document.getElementById("password")
+      var kriteria = document.querySelectorAll(".kriteria")
+      var listKriteria = [
+        (input) => input.length >= 8 && input.length <= 20,
+        (input) => /[a-z]/.test(input),
+        (input) => /[A-Z]/.test(input),
+        (input) => (input.match(/\d/g) || []).length >= 2,
+        (input) => /[!@#$%^&*]/.test(input),
+        (input) => !/\s/.test(input),
+      ]
+      function cekPassword() {
+        listKriteria.forEach((item, i) =>
+          kriteria[i].classList.toggle("valid", item(password.value))
+        )
+      }
+      function tampilPassword() {
+        var btn = document.querySelector(".tampil")
+        password.type = password.type === "password" ? "text" : "password"
+        btn.textContent = password.type === "password" ? "🫣" : "😮"
+      }
+    </script>
+  </body>
+</html>

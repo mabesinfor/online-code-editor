@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            box-sizing: border-box;
+        }
+        .container-1 p {
+            text-align: justify;
+            text-indent: 50px;
+        }
+        img {
+            border-radius: 10px;
+            width: 100%;
+            height: 200px;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+        .container {
+            width: 100vh;
+            height: auto;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .title {
+            width: 100%;
+            text-align: center;
+        }
+        .container-0 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .container-1 {
+            width: 70%;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .container-2 {
+            width: 30%;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .formnilai{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 20px;
+        }
+        .formnilai label {
+            font-weight: bold;
+            margin-bottom: auto;
+            cursor: pointer;
+        }
+        .formnilai input {
+            width: 90%;
+            padding: 5px;
+            border: 1px solid #c2c2c2;
+            border-radius: 5px;
+        }
+        .formnilai button {
+            padding: 5px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 30%;
+            margin-top: 10px;
+        }
+        .formnilai button.reset {
+            background-color: #f00;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .table th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .table tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Sistem Informasi Mahasiswa IF UNSOED</h2>
+        <img src="teknik.jpg" alt="Kampus UNSOED" width="100px">
+        <div class="container-0">
+            <div class="container-1">
+                <h3>Profil Jurusan</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, atque numquam dolore, laboriosam, tempora asperiores laudantium possimus tempore animi fugit officia expedita voluptatem nulla at harum? Excepturi voluptatem repellat suscipit ipsa obcaecati rem tenetur quibusdam. Doloremque quasi totam ut voluptatum nobis modi dolor officia labore eos! Adipisci velit eum ducimus!</p>
+                <a href="https://if.unsoed.ac.id">Selengkapnya</a>
+                <h3>Jadwal</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">No</th>
+                            <th colspan="2">Mata Kuliah</th>
+                            <th rowspan="2">Hari</th>
+                        </tr>
+                        <tr>
+                            <th>Kode MK</th>
+                            <th>Nama MK</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>IF430</td>
+                            <td>Pemrograman Web I</td>
+                            <td>Senin</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>IF431</td>
+                            <td>Rekayasa Perangkat Lunak</td>
+                            <td>Selasa</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>IF432</td>
+                            <td>Manajemen Proyek Informatika</td>
+                            <td>Rabu</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="container-2">
+                <h3 style="text-align: center;">Konversi Nilai Mata Kuliah</h3>
+                <p style="text-align: center;">Gunakan Fitur ini untuk mengonversi nilai mata kuliah anda</p>
+                <form class="formnilai" method="post" action="">
+                    <label for="nama">Nama</label>
+                    <input type="text" name="nama" id="nama"><br>
+                    <label for="nim">NIM</label>
+                    <input type="text" name="nim" id="nim" maxlength="9"><br>
+                    <label for="nilai">Nilai</label>
+                    <input type="text" name="nilai" id="nilai"><br>
+                    <button type="submit">Konversi</button>
+                    <button class="reset" type="reset">Reset</button>
+                </form>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const form = document.querySelector('.formnilai');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (form.querySelector('#nama').value && form.querySelector('#nim').value && form.querySelector('#nilai').value) {
+                
+                const nama = form.querySelector('#nama').value;
+                const nim = form.querySelector('#nim').value;
+                const nilai = form.querySelector('#nilai').value;
+
+                // function validateNilai(nilai) {
+                //     if (nilai < 0) {
+                //         alert('Nilai tidak boleh negatif!');
+                //         return false;
+                //     } else if (nilai > 100) {
+                //         alert('Nilai tidak boleh lebih dari 100!. Nilai akan diubah menjadi 100');
+                //         nilai = 100;
+                //     }
+                //     return true;
+                // }
+                var nimRegex = /^[A-Z]{1}[0-9]{1}[A-Z]{1}[0-9]{6}$/;
+                if (!nimRegex.test(nim)) {
+                    alert('NIM tidak valid!');
+                    return false;
+                }
+
+                let konversi = '';
+                if (nilai >= 80) {
+                    konversi = 'A';
+                } else if (nilai >= 75) {
+                    konversi = 'AB';
+                } else if (nilai >= 70) {
+                    konversi = 'B';
+                } else if (nilai >= 65) {
+                    konversi = 'BC';
+                } else if (nilai >= 60) {
+                    konversi = 'C';
+                } else if (nilai >= 55) {
+                    konversi = 'CD';
+                } else if (nilai >= 40) {
+                    konversi = 'D';
+                } else {
+                    konversi = 'E';
+                }
+                
+                const resultDiv = document.getElementById('result');
+                
+                alert(`Nama: ${nama}\nNIM: ${nim}\nNilai: ${nilai}\nKonversi: ${konversi}`);
+                
+                resultDiv.innerHTML = `
+                    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 10px; background-color: #f9f9f9; margin-top: 20px;">
+                        <h4>Hasil Konversi Nilai</h4>
+                        <p><strong>Nama:</strong> ${nama}</p>
+                        <p><strong>NIM:</strong> ${nim}</p>
+                        <p><strong>Nilai:</strong> ${nilai}</p>
+                        <p><strong>Konversi:</strong> ${konversi}</p>
+                    </div>
+                `;
+            }else{
+                alert('Anda harus mengisi data dengan lengkap!');
+                return false;
+            }
+            const resetButton = form.querySelector('.reset');
+            resetButton.addEventListener('click', () => {
+                document.getElementById('result').innerHTML = '';
+            });
+        });
+    </script>
+</body>
+</html>

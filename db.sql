@@ -875,3 +875,132 @@ INSERT INTO akun VALUES (
     "$2y$10$v7rBUf3aGv7UK5IkC9dYLeALRp5F19shxjCHcSrdIPc6EDXvqxj5a",
     "inventory"
 );
+
+-- PAKET INFOR FAWWAZ SHIFT A
+INSERT INTO akun VALUES (
+    "H1D023037",
+    "$2y$10$NzztMMB/LEWsXmHH4AplbOpp5OvxnbSerHlG1bq3LFvpKAHUM2GMy",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023103",
+    "$2y$10$SKYfImcdaQo03LpqVfzZleM805lPBbDLF23IjQT.8SffRhU4zWh8O",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023034",
+    "$2y$10$.Y/QrNRfNQYYOT5um.cJVu9UatG5AeY7LIzgZeCI6wVflczoVhkDG",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023051",
+    "$2y$10$ZT8xhN5ARk9hQ6QSH9UGZehi60uGiN44kpdV/3361.C0v67NMT0ma",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023120",
+    "$2y$10$gAe675ECFkEKTMeV9V5UFOsnxZqdIdbwQQlU3.Klc8QO52usBfj8.",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023070",
+    "$2y$10$Pb3JZJ5Hf.6CROq35CLWduEbud7qIC.rgOzz1kr4b1D25wK8S6WlO",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023118",
+    "$2y$10$6C/Of/0a5utopoV5ai1xyuAbPc5..ad5VPYA2eCoydZ8jtWozLqkS",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023064",
+    "$2y$10$.wLcK19ecNZWQXu15Hy8a.fVorksV0O/0uWwXD1xwhG2XyiaTuUv.",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023020",
+    "$2y$10$7QK9Inwi52R9EsVbilygGuYumCmnCTSRU5A7AqmHOBPxlloGDBnKK",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "H1D023114",
+    "$2y$10$qLUsz1Uu00XNQevERN3VtO1g4Lsld99ZUNxNyGZkrwnu86/HzxULO",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "infor1",
+    "$2y$10$NZcCUKxPdeo.qeVdv8vwneDMj2NKcs/NQMZCiZehKMvZ79w0byC8e",
+    "infor"
+);
+INSERT INTO akun VALUES (
+    "infor2",
+    "$2y$10$ZaiZWjltKsYxQQhUwMyXx.Lp6ILgTKaQ7oRAWCwr60JzAIej5pjZe",
+    "infor"
+);
+
+-- PAKET KOMINFO JEHIAN SHIFT A
+INSERT INTO akun VALUES (
+    "H1D023016",
+    "$2y$10$9xVWFusmnhzPcTxpJSJvbuZftwEIWSvNAEPeR.seM2R1nm3SyYki.",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023028",
+    "$2y$10$lEqI175F42zC8mnxhwJp.OiNzja42tSjbjAGqPLsSiEX.y0lrao9K",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023079",
+    "$2y$10$I3y8w7z2RRBz1LQX8nNg3OUjGTK3i5L9babPOhTihypBDq2rmxyBW",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023001",
+    "$2y$10$lx83noPpcZZLmqkLHElmAuE2wqw/AJZTKAkPD4.TEKe.Z.iyOYZHS",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023003",
+    "$2y$10$SRGGvn8hbPWPGLnKO2jCd..Rl.hgODn4O0WM4MyhrdlL4UIE6.G2W",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023081",
+    "$2y$10$Nb9Cb6ZSGuT1jbSxjJ9J1OLD5zBxy3lFU8x1RjZ132sOkhB/zbojC",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023115",
+    "$2y$10$JRBoB4aIe2HKHqBIer.2D.BvvA5z.xAp9aKby43oYGyMa7gM9XP2e",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023035",
+    "$2y$10$zgsKn.JUSliMrFCVG.iY2.LS.5shlKhppaJ8wjLX1hDCXbHx0NvTW",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023030",
+    "$2y$10$B8zA4nV5LzYfOo4RLsQwK.ik0l8qqiH/WTsrX21lhocPv3DA8.At6",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023047",
+    "$2y$10$ALz1qrkQ2lW7IjyfWinhkOS2Y16gy/BZtfd2SME.kMSgONUOvFKj.",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "H1D023042",
+    "$2y$10$9CUEKYZ.I.PUozs9EoAqk.lBx73yj//7yPklDNYRNGTrUraqsch2W",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "kominfo1",
+    "$2y$10$qGdTnyOZzrrWJ8hQN9BQCeF4t.2mmR9Qx9hg7yvc9gG3k9wCulum6",
+    "kominfo"
+);
+INSERT INTO akun VALUES (
+    "kominfo2",
+    "$2y$10$lryx1C0DWmrZgX1WZlU.Ou3M3K0qt2XZM0qowm5UHq/fxm8lhazN.",
+    "kominfo"
+);

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🔒 Bikin Password</title>
+    <style>
+      * { box-sizing: border-box }
+      .valid { text-decoration: line-through; color: green; }
+      #password {
+        width: 100%;
+        padding: 10px 30px 10px 10px;
+        border: 2px solid #2c3e50;
+        border-radius: 4px;
+      }
+      #password:focus { outline: none; border: 2px solid #3498db; }
+      .tampil {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      table {
+        border-collapse: collapse;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      th {
+        padding: 12px;
+        border: 2px solid #1a252f;
+        font-weight: bold;
+        background-color: #2c3e50;
+        color: white;
+      }
+      td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🔒 Bikin Password</h1>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Kriteria</th>
+        <th>Cek</th>
+      </tr>
+        <tr>
+          <td>1.</td>
+          <td class="kriteria">Jumlah 8-20 karakter</td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td class="kriteria">Ada huruf kecil</td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td class="kriteria">Ada huruf besar</td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td class="kriteria">Minimal 2 angka</td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td class="kriteria">Ada simbol (!@#$%^&*)</td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td class="kriteria">Tidak boleh ada spasi</td>
+          <td>❌</td>
+        </tr>
+    </table>
+    <div style="position: relative">
+      <input type="password" id="password" placeholder="Masukkan password" oninput="cekPassword()" />
+      <button class="tampil" onclick="tampilPassword()">🫣</button>
+    </div>
+    <script>
+      const password = document.getElementById("password")
+      const kriteria = document.querySelectorAll(".kriteria")
+      const listKriteria = [
+        (input) => input.length >= 8 && input.length <= 20,
+        (input) => /[a-z]/.test(input),
+        (input) => /[A-Z]/.test(input),
+        (input) => (input.match(/\d/g) || []).length >= 2,
+        (input) => /[!@#$%^&*]/.test(input),
+        (input) => !/\s/.test(input),
+      ]
+      function cekPassword() {
+        listKriteria.forEach((item, i) =>
+          kriteria[i].classList.toggle("valid", item(password.value))
+        )
+      }
+      function tampilPassword() {
+        const btn = document.querySelector(".tampil")
+        password.type = password.type === "password" ? "text" : "password"
+        btn.textContent = password.type === "password" ? "🫣" : "😮"
+      }
+    </script>
+  </body>
+</html>

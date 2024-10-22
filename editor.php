@@ -641,7 +641,7 @@ umask($old);
 				'Cache-Control': 'no-cache'
 			}});
 		if (response.status != 200) {
-			throw new Error("Server Error");
+			throw new Error("Ok");
 		}
 		let content = await response.text();
 		return content;

@@ -186,6 +186,16 @@ switch ($paket) {
 		$filename = "RESPONSI 1_PAKET INVENTORY.pdf";
 		$filepath .= $filename;
 		break;
+	case "infor":
+		copy("./images/shift_a/teknik.jpg", $fulldir . "teknik.jpg");
+		$filename = "RESPONSI 1_PAKET INFOR.pdf";
+		$filepath .= $filename;
+		break;
+	case "kominfo":
+		copy("./images/shift_a/kominfo.jpg", $fulldir . "kominfo.jpg");
+		$filename = "RESPONSI 1_PAKET KOMINFO.pdf";
+		$filepath .= $filename;
+		break;
 	default:
 		die("Paket tidak ditemukan");
 }
